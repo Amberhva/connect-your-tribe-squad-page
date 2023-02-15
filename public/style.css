@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+
+  background: rgba(188, 105, 138, 0.5);
+  background-image: radial-gradient(circle at bottom left, rgba(255, 255, 0, 0.9), rgba(255, 255, 0, 0) 70%),
+    radial-gradient(circle at top left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 70%),
+    radial-gradient(circle at center right, rgba(255, 0, 255, 0.8), rgba(255, 0, 255, 0) 50%);
+  background-size: 200% 200%;
+  animation: movement 30s ease infinite alternate-reverse;
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+main section {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+article {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  color: slate;
+  text-align: center;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+article h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+article img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+article a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  display: block;
+}
+article a:hover {
+  background: #fff2;
+}
+article a span {
+  display: none;
+}
