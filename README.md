@@ -47,16 +47,16 @@ https://clean-lion-earmuffs.cyclic.app
 - [ ] Een overzicht van alle squads
 
 ## :100: Kenmerken
-* HTML
-* CSS
-* JS
-* NODE: Met Node kunnen kan je als developer JavaScript-code schrijven die rechtstreeks in een computerproces zelf wordt uitgevoerd in plaats van in een browser.
-* EJS: Staat voor Embedded JavaScript. Het is een simpele template code taal dat zijn gebruikers HTML code laat genereren met JavaScript. 
-* EXPRESS: Express is een Node.js web-framework dat een set functies biedt voor web- en mobiele applicaties.
-* JSON
-* API
-* REST
-* Visual studio Code
+* **HTML**
+* **CSS**
+* **JS**
+* **NODE**: Met Node kunnen kan je als developer JavaScript-code schrijven die rechtstreeks in een computerproces zelf wordt uitgevoerd in plaats van in een browser.
+* **EJS**: Staat voor Embedded JavaScript. Het is een simpele template code taal dat zijn gebruikers HTML code laat genereren met JavaScript. 
+* **EXPRESS**: Express is een Node.js web-framework dat een set functies biedt voor web- en mobiele applicaties.
+* **JSON**
+* **API**
+* **REST**
+* **Visual studio Code**
 
 ## Licentie
 
