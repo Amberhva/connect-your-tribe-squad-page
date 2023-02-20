@@ -24,6 +24,7 @@ Elke frontender bij FDND staat in een database die te bereiken is via de API op 
 
  ## 📸 Poster visual
  ### :phone: Mobiel
+![image](https://user-images.githubusercontent.com/112861033/220101286-28d79e6f-d08f-44eb-aaf3-8af6aa1307d5.png)
 
 
  ### 🖥️ Desktop
