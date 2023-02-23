@@ -2,17 +2,10 @@
 
 <article class="team-section">
     <header>
-        <!-- De squad naam wordt hier vertoond -->
+        <!-- De squad wordt hier vertoond -->
         <h1 class="squad-title" data-aos="fade-up" data-aos-delay="200" data-aos-once="true"><%= squad.name %></h1>
         <p class="squad-description" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">Welkom bij de FDND opleiding!</p>
     </header>
-
-    <!-- Navigatie om naar de andere squads te gaan -->
-    <nav class="all-squads" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-        <a class="squads-nav" href="/squadA">Squad A</a>
-        <a class="squads-nav" href="/squadB">Squad B</a>
-        <a class="squads-nav" href="/">Squad C</a>
-    </nav>
 
     <section class="container">
         <!-- In de de whoisfdnd databse wordt elke member van de squad getoond met de data die je wilt weergeven in het kaartje -->
@@ -21,10 +14,10 @@
             <!-- Wanneer een member van de squad geen avatar heeft, toon dan de vervangende afbeelding -->
             <div class="img">
                 <% if (member.avatar) { %>
-                <!-- Hier wordt iedereen zijn/haar avatar gepakt van de database en vertoond -->
+                    <!-- Hier wordt iedereen zijn/haar avatar gepakt van de database en vertoond -->
                 <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
                 <% }else{ %>
-                <!-- De vervangende afbeelding -->
+                    <!-- De vervangende afbeelding -->
                 <img src="/img/placeholder.png" alt="Placeholder avatar" />
                 <% } %>
             </div>
@@ -38,7 +31,7 @@
             <% if (member.bio) { %>
             <p class="about"><%- member.bio.html %></p>
             <% }else{ %>
-            <!-- De vervangende tekst -->
+                <!-- De vervangende tekst -->
             <p class="about">Eerstejaars student aan de opleiding FDND</p>
             <% } %>
 

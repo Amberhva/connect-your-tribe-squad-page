@@ -9,6 +9,7 @@
 
 body {
     background-color: #f8fbfd;
+    color: #f8fbfd;
 }
 
 .team-section {
@@ -36,9 +37,30 @@ body {
     color: #aaaaaa;
 }
 
-.team-section .bio {
+.all-squads {
+    margin-top: -8em;
+    margin-bottom: 10em;
+}
+
+.squads-nav {
+    font-size: 1.2em;
+    font-weight: 200;
+    background: #2c49b6;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.4em;
+    box-shadow: 0.3em 0.3em 0.5em #686868bc;
+}
+
+.team-section .slug {
     font-size: 1em;
     font-weight: 500;
+    color: #aaaaaa;
+}
+
+.team-section p {
+    font-size: 1em;
+    font-weight: 300;
     color: #aaaaaa;
 }
 
@@ -138,16 +160,50 @@ footer {
 }
 
 /* Media query */
-@media only screen and (min-width: 50.6em) and (max-width: 75em) {
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 @media only screen and (max-width: 75em) {
     .container {
         display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 41em) {
+    .container {
+        display: grid;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 31em) {
+    .all-squads {
+        display: grid;
+        width: 100%;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 24.6em) {
+    .all-squads {
+        display: grid;
+        width: 100%;
+        text-align: center;
+        margin-right: 5em;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.5em;
     }
 }
