@@ -24,12 +24,10 @@ Elke frontender bij FDND staat in een database die te bereiken is via de API op 
 
  ## 📸 Poster visual
  ### :phone: Mobiel
-![image](https://user-images.githubusercontent.com/112861033/220101286-28d79e6f-d08f-44eb-aaf3-8af6aa1307d5.png)
-
+![image](https://user-images.githubusercontent.com/112861033/220910998-ea8d6e0d-dfda-4009-a8ba-cfa24eaf7f67.png)
 
  ### 🖥️ Desktop
-![image](https://user-images.githubusercontent.com/112861033/220088724-c19edb4c-a31f-4ca0-8616-75a43399bc86.png)
-
+![image](https://user-images.githubusercontent.com/112861033/220911073-f3b43418-7d04-41c6-9336-9020d44d0bca.png)
 
 ## 🌐 Cyclic.sh 
 https://clean-lion-earmuffs.cyclic.app
