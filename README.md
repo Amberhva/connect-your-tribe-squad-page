@@ -1,36 +1,61 @@
-# Squadpage voorbeeld
+# Connect-your-tribe-squad-page
+Ontwerp en maak met een team een squad page met Node en data uit de whois.fdnd.nl API.
 
-Een live-coded voorbeeld tijdens de talk op 15 feb 2023.
+## 📋 Inhoudsopgave 
+💬 Beschrijving <br>
+🔖 Gebruik van de website<br>
+📸 Poster visual<br>
+🌐 Cyclic.sh <br>
+📑 Checklist gelukt/niet gelukt <br>
+♦️ Licentie
 
-## Inhoudsopgave
+## 💬 Beschrijving
+Elke frontender bij FDND staat in een database die te bereiken is via de API op whois.fdnd.nl. In een team ga je met deze data een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
 
-- [Beschrijving](#beschrijving)
-- [Kenmerken](#kenmerken)
-- [Installatie](#installatie)
-- [Gebruik](#gebruik)
-- [Bronnen](#bronnen)
-- [Licentie](#licentie)
+## 🔖 Gebruik van de website
+1. Download de code via de zip
+2. Pak het bestand uit
+3. Open het uitgepakte bestand met Visual Studio Code
+4. Open de terminal
+5. Typ in: `npm install` en installeer de benodigde packages
+6. Nadat de installatie klaar is, typ nogmaals in de terminal: `npm start`
+7. Je krijgt helemaal onderaan een link te zien wat als volgt gaat: `http://localhost:8000`
+8. Klik op de link en bekijk het project
 
-## Beschrijving
+ ## 📸 Poster visual
+ ### :phone: Mobiel
+![image](https://user-images.githubusercontent.com/112861033/220910998-ea8d6e0d-dfda-4009-a8ba-cfa24eaf7f67.png)
 
-Een live-coded voorbeeld van een overzichtspagina gemaakt met Express.js en EJS, welke gebruik maakt van configuratie in een `.env` bestand.
+ ### 🖥️ Desktop
+![image](https://user-images.githubusercontent.com/112861033/220911073-f3b43418-7d04-41c6-9336-9020d44d0bca.png)
 
-## Kenmerken
+## 🌐 Cyclic.sh 
+https://clean-lion-earmuffs.cyclic.app
 
-## Installatie
+## 📑 Checklist gelukt/niet gelukt 
+✅ Wat er wel is gelukt:
+- [x] Een squad page ontworpen en gemaakt met Node en de WHOIS API
+- [x] De squad page is online gepubliceerd
+- [x] Ik heb gewerkt volgens de verschillende fases van de development-lifecycle en ik heb mijn proces bijgehouden in de Wiki
+- [x] Comments in de Node-code waarmee de code is uitgelegd
+- [x] Ik heb comments in de EJS bestanden waarmee een loop of andere Control Flow is uitgelegd
+- [x] Ik heb in de Readme bij 'Kenmerken' uitgelegd wat Node is, wat Express is en wat EJS doet
 
-1. Fork en clone de code
-2. Voer npm install uit in de projectmap
-3. Voer npm start uit en open het voorbeeld in je browser
+❌ Wat er niet is gelukt :
+- [ ] User generated content toevoegen
+- [ ] Een filter systeem
 
-## Gebruik
-
-## Bronnen
-
-https://expressjs.com/en/4x/api.html
-https://ejs.co/
-https://www.npmjs.com/package/dotenv
-https://whois.fdnd.nl/docs/squad#slug
+## :100: Kenmerken
+* **HTML**
+* **CSS**
+* **JS**
+* **NODE**: Met Node kunnen kan je als developer JavaScript-code schrijven die rechtstreeks in een computerproces zelf wordt uitgevoerd in plaats van in een browser.
+* **EJS**: Staat voor Embedded JavaScript. Het is een simpele template code taal dat zijn gebruikers HTML code laat genereren met JavaScript. 
+* **EXPRESS**: Express is een Node.js web-framework dat een set functies biedt voor web- en mobiele applicaties.
+* **JSON**
+* **API**
+* **REST**
+* **Visual studio Code**
 
 ## Licentie
 
