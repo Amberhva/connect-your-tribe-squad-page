@@ -37,7 +37,7 @@ https://clean-lion-earmuffs.cyclic.app
 ## 📑 Checklist gelukt/niet gelukt 
 ✅ Wat er wel is gelukt:
 - [x] Een squad page ontworpen en gemaakt met Node en de WHOIS API
-- [x] De quad page is online gepubliceerd
+- [x] De squad page is online gepubliceerd
 - [x] Ik heb gewerkt volgens de verschillende fases van de development-lifecycle en ik heb mijn proces bijgehouden in de Wiki
 - [x] Comments in de Node-code waarmee de code is uitgelegd
 - [x] Ik heb comments in de EJS bestanden waarmee een loop of andere Control Flow is uitgelegd
@@ -45,7 +45,7 @@ https://clean-lion-earmuffs.cyclic.app
 
 ❌ Wat er niet is gelukt :
 - [ ] User generated content toevoegen
-- [ ] Een overzicht van alle squads
+- [ ] Een filter systeem
 
 ## :100: Kenmerken
 * **HTML**
