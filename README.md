@@ -55,7 +55,7 @@ https://clean-lion-earmuffs.cyclic.app
 * **JSON**
 * **API**
 * **REST**
-* **Visual studio Code**
+* **Visual Studio Code**
 
 ## Licentie
 
